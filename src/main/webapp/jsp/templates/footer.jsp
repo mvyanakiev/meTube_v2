@@ -2,7 +2,7 @@
 <html>
 <footer class="footer py-3">
     <div class="container-fluid">
-        <div class="container-fluid text-center">&copy; ByHoi 2019. All rights reserved.</div>
+        <div class="container-fluid text-center">&copy; By 2019. All rights reserved.</div>
     </div>
 </footer>
 </html>

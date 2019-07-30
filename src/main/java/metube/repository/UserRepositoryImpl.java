@@ -33,7 +33,7 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public User findById(String s) {
+    public User findById(String id) {
         User user = this.entityManager.createQuery("SELECT u from User u WHERE u.id = :id", User.class)
                 .getSingleResult();
         this.entityManager.getTransaction().commit();

@@ -22,14 +22,14 @@
                     <form class="form-inline" action="/login" method="POST">
                         <fieldset>
                             <div class="control-group">
-                                <label class="control-label h3 mb-2" for="username">Username</label>
+                                <label class="control-label h3 mb-2" for="username">Username:</label>
                                 <div class="controls">
                                     <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
                                 </div>
                             </div>
                             <br/>
                             <div class="control-group">
-                                <label class="control-label h3 mb-2" for="password">Password</label>
+                                <label class="control-label h3 mb-2" for="password">Password:</label>
                                 <div class="controls">
                                     <input type="password" id="password" name="password" placeholder=""
                                            class="input-xlarge">
@@ -46,7 +46,6 @@
                 </div>
             </div>
         </div>
-        <hr class="my-3"/>
 
 
 
